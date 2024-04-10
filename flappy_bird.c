@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	const float player_size = 40;
 	const float block_width = 100;
 	const float forward_speed = 2.5;
-	const float jump_speed = 8;
+	const float jump_speed = 10;
 	const float fall_speed = 4;
 
 	Rectangle terrain_top = { 0, 0, block_width * MAX_BLOCKS, 20 };
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 		blocks_top[i].y = 20;
 
 		blocks_bottom[i].width = block_width;
-		blocks_bottom[i].height = screen_height - blocks_top[i].height - 220;
+		blocks_bottom[i].height = screen_height - blocks_top[i].height - 200;
 		blocks_bottom[i].x = blocks_top[i].x;
 		blocks_bottom[i].y = screen_height - blocks_bottom[i].height - 40;
 
