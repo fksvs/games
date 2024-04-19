@@ -1,5 +1,4 @@
 #include "raylib.h"
-#include <stdio.h>
 
 #define SCREEN_SIZE 800
 #define BLOCK_SIZE 40
