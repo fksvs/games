@@ -2,7 +2,7 @@
 
 #define MAX_BLOCKS 500
 
-int main(int argc, char *argv[])
+int main()
 {
 	const int screen_width = 1000;
 	const int screen_height = 800;

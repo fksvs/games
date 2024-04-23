@@ -198,7 +198,7 @@ void update_frame()
 	}
 }
 
-int main(int argc, char *argv[])
+int main()
 {
 	InitWindow(SCREEN_SIZE, SCREEN_SIZE, "Snake");
 
