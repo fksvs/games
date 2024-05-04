@@ -169,14 +169,12 @@ void draw_frame()
 
 void reset_game()
 {
-	if (IsKeyPressed(KEY_ENTER)) {
-		game_over = 0;
-		game_win = 0;
-		snake.block[0].x = SCREEN_SIZE / 2.0f;
-		snake.block[0].y = SCREEN_SIZE / 2.0f;
-		snake.direction[0] = (Vector2){ 1, 0 };
-		snake.snake_size = 1;
-	}
+	game_over = 0;
+	game_win = 0;
+	snake.block[0].x = SCREEN_SIZE / 2.0f;
+	snake.block[0].y = SCREEN_SIZE / 2.0f;
+	snake.direction[0] = (Vector2){ 1, 0 };
+	snake.snake_size = 1;
 }
 
 void update_frame()
