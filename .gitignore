@@ -6,3 +6,6 @@
 
 # ignore executables
 *.out
+snake
+flappy_bird
+space_shooter
